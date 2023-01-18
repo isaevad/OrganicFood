@@ -29,7 +29,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  color:#343434
+  color: #222222;
 }
 
 .header-nav {
@@ -38,10 +38,11 @@ body {
 
 .header-nav a {
   text-decoration: none;
-  color:#343434
+  color: #222222;;
+  line-height: 24px;
 }
 
-.title {
+.title, .subtitle {
   font-family: 'Rosario';
   font-size: 70px;
   line-height: 90px;
@@ -49,64 +50,54 @@ body {
 }
 
 .description {
-  color: #858585;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  color: #555555;
 }
 
 .order {
   font-weight: 500;
-  color:#343434;
+  color: #222222;
   text-decoration: none;
 }
 
+.benefits {
+  color: #000000;
+}
 .benefits span {
   font-size: 48px;
   line-height: 48px;
 }
 
-.subtitle {
-  font-family: 'Rosario';
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 90px;
-}
-
 .plus {
   font-family: 'DMSans';
   font-size: 20px;
-  line-height: 30px;
   font-weight: 700;
 }
 
 .aside {
   font-size: 14px;
   line-height: 20px;
-  color:#858585
+  color: #555555;
 }
 
-.ahmed {
+.name {
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
 }
 
-.footer {
+.footer-nav {
   list-style-type: none;
 }
 
-.footer li {
+.footer-nav h3 {
   font-size: 24px;
   line-height: 31px;
   font-weight: 500;
 }
 
-.footer a {
+.footer-nav a {
+  list-style-type: none;
   text-decoration: none;
-  color:#343434;
   line-height: 23px;
-  font-size: 18px;
-  color: #858585;
-  font-weight: 400;
+  color: #555555;
 }
