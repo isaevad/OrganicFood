@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'DMSans';
+  src: url(/fonts/DMSans-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url(/fonts/DMSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url(/fonts/DMSans-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Rosario';
+  src: url(/fonts/Rosario-Bold.ttf);
+  font-weight: 700;
+}
+
+body {
+  font-family: 'DMSans';
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: #222222;
+}
+
+.header-nav, .footer-nav {
+  list-style-type: none;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #222222;;
+  line-height: 24px;
+}
+
+.title, .subtitle {
+  font-family: 'Rosario';
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 700;
+}
+
+.description {
+  color: #555555;
+}
+
+.order {
+  font-weight: 500;
+  color: #222222;
+  text-decoration: none;
+}
+
+.benefits {
+  color: #000000;
+}
+
+.benefits span {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.plus {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.aside {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.footer-nav h3 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  line-height: 23px;
+  color: #555555;
+}
