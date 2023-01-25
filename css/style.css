@@ -22,18 +22,56 @@
   font-weight: 700;
 }
 
+html {
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'DMSans';
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   color: #222222;
+  width: 1240px;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
 }
 
 .header-nav, .footer-nav {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 56px;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-logo {
+  height: 56px;
+  width: 56px;
+}
+
+.header-nav li {
+  margin-right: 20px;
 }
 
 .header-nav a {
@@ -42,11 +80,56 @@ body {
   line-height: 24px;
 }
 
+.header-nav .button {
+  display: flex;
+  width: 160px;
+  height: 40px;
+  background-color:#09A66D;
+  border-radius: 8px;
+  color:#FFFFFF;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.header-container .header-nav:last-child li {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.section1 {
+  height: 850px;
+  margin-top: 43px;
+  background-color: #F3FBF8;
+}
+
+.title {
+  display: flex;
+  height: 90px;
+  width: 784px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  padding-top: 93px;
+}
+
 .title, .subtitle {
   font-family: 'Rosario';
   font-size: 70px;
   line-height: 90px;
   font-weight: 700;
+}
+
+.section1 .description {
+  display: flex;
+  align-items: center;
+  width: 638px;
+  height: 90px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 27px;
 }
 
 .description {
@@ -57,6 +140,42 @@ body {
   font-weight: 500;
   color: #222222;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 176px;
+  height: 64px;
+  margin: auto;
+  margin-top: 33px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1240px;
+  height: 465px;
+  margin: -10px auto;
+}
+
+.features {
+  width: 250px;
+  height: 116px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 17px 46px 17px 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .benefits {
