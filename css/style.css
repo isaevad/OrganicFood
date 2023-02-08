@@ -83,7 +83,7 @@ body {
   height: 40px;
   background-color:#09A66D;
   border-radius: 8px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
@@ -133,11 +133,14 @@ body {
 }
 
 .section1 .description {
-  width: 638px;
-  height: 90px;
   text-align: center;
   margin: auto;
   margin-top: 27px;
+}
+
+.definition {
+  width: 638px;
+  margin: 0 auto;
 }
 
 .description {
@@ -155,16 +158,12 @@ body {
 
 .subtitle {
   margin: 30px 0 20px 0;
-
 }
 
-.section2 p{
+.section2 p {
   margin: 0;
 }
 
-.section2 div p:first-child {
-  width: 638px;
-}
 
 .benefits-list {
   display: flex;
@@ -190,6 +189,10 @@ body {
 
 .features-text {
   width: 278px;
+}
+
+.section2-definition {
+  width: 638px;
 }
 
 .different {
@@ -228,6 +231,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: #000000;
 }
 
 .features p {
@@ -237,7 +241,9 @@ body {
 }
 
 .arrow {
-  margin-left: 245px;
+  position: absolute;
+  top: 735px;
+  left: 241px;
 }
 
 .decor-line {
@@ -245,10 +251,6 @@ body {
   left: 461px;
   top: 966px;
   z-index: 1;
-}
-
-.benefits {
-  color: #000000;
 }
 
 .image {
@@ -259,7 +261,6 @@ body {
   font-size: 48px;
   line-height: 48px;
 }
-
 
 .section3 {
   height: 832px;
@@ -303,7 +304,7 @@ body {
 
 .section4 {
   height: 566px;
-  margin-top: 66px;
+  margin-top: 96px;
   box-sizing: border-box;
 }
 
@@ -313,9 +314,6 @@ body {
   justify-content: space-between;
 }
 
-.section4 div p:first-child {
-  background-color: #000000;
-}
 
 .plus {
   font-size: 20px;
