@@ -22,24 +22,107 @@
   font-weight: 700;
 }
 
+html {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'DMSans';
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   color: #222222;
+  width: 1240px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .header-nav, .footer-nav {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 56px;
+  align-items: center;
+}
+
+.header-logo {
+  height: 56px;
+  width: 56px;
+  text-align: center;
+}
+
+.header-nav li {
+  margin-right: 20px;
 }
 
 .header-nav a {
   text-decoration: none;
   color: #222222;;
   line-height: 24px;
+}
+
+.header-nav .button {
+  display: flex;
+  width: 160px;
+  height: 40px;
+  background-color:#09A66D;
+  border-radius: 8px;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.header-container .header-nav:last-child li {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.section1 {
+  box-sizing: border-box;
+  height: 850px;
+  margin-top: 43px;
+  padding-top: 93px;
+  position: relative;
+  z-index: 4;
+}
+
+.pseudo {
+  background-color: #F3FBF8;
+  position: absolute;
+  width: 1440px;
+  height: 850px;
+  left: 0;
+  z-index: 2;
+}
+
+.decor {
+  position: absolute;
+  left: -59px;
+  top: 115px;
+  z-index: 3;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
 
 .title, .subtitle {
@@ -49,24 +132,188 @@ body {
   font-weight: 700;
 }
 
+.section1 .description {
+  text-align: center;
+  margin: auto;
+  margin-top: 27px;
+}
+
+.definition {
+  width: 638px;
+  margin: 0 auto;
+}
+
 .description {
   color: #555555;
+  margin: 0;
+  padding: 0;
+}
+
+.section2 {
+  box-sizing: border-box;
+  margin-top: 140px;
+  position: relative;
+  z-index: 2;
+}
+
+.subtitle {
+  margin: 30px 0 20px 0;
+}
+
+.section2 p {
+  margin: 0;
+}
+
+
+.benefits-list {
+  display: flex;
+  flex-direction: row;
+  width: 1240px;
+}
+
+.features-box {
+  width: 500px;
+  margin-right: 140px;
+}
+
+.features-section2 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 40px 59px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.features-text {
+  width: 278px;
+}
+
+.section2-definition {
+  width: 638px;
+}
+
+.different {
+  background-color: #F3FBF8;
 }
 
 .order {
   font-weight: 500;
   color: #222222;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 176px;
+  height: 64px;
+  margin: 33px auto -5px;
 }
 
-.benefits {
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.features {
+  width: 250px;
+  height: 116px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 17px 46px 17px 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   color: #000000;
+}
+
+.features p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 735px;
+  left: 241px;
+}
+
+.decor-line {
+  position: absolute;
+  left: 461px;
+  top: 966px;
+  z-index: 1;
+}
+
+.image {
+  margin-top:-40px
 }
 
 .benefits span {
   font-size: 48px;
   line-height: 48px;
 }
+
+.section3 {
+  height: 832px;
+  margin-top: 146px;
+  box-sizing: border-box;
+  padding-top: 89px;
+  position: relative;
+  z-index: 2;
+}
+
+.section3-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.section3-text {
+  margin-left: 50px;
+}
+
+.section3 .order {
+  margin: 50px 0 0 0;
+}
+
+.pseudo2 {
+  position: absolute;
+  width: 1440px;
+  height: 832px;
+  left: 0;
+  top: 2064px;
+  background-color: #F3FBF8;
+  z-index: 1;
+}
+
+.decor2 {
+  position: absolute;
+  left: 976px;
+  top: 2498px;
+  z-index: 3;
+  object-fit: cover;
+}
+
+.section4 {
+  height: 566px;
+  margin-top: 96px;
+  box-sizing: border-box;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 .plus {
   font-size: 20px;
@@ -83,6 +330,7 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
+  margin: 50px 0 20px 0;
 }
 
 .footer-nav h3 {
