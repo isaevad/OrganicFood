@@ -308,12 +308,38 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  border: none;
+  background-color: #FFFFFF;
+  margin-top: 39px;
+}
+
 .review {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+.review-grade {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 466px;
+  height: 96px;
+  margin-top: 50px;
+}
+
+.review-text {
+  width: 587px;
+}
+
+.review-name {
+  margin-right: 124px;
+}
+
+.app-2 {
+  position: absolute;
+}
 
 .plus {
   font-size: 20px;
@@ -330,9 +356,29 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
-  margin: 50px 0 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
+.section5 {
+  box-sizing: border-box;
+  height: 496px;
+  margin-top: 150px
+}
+
+.download-app {
+  box-sizing: border-box;
+  width: 1014px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto 0;
+}
+
+.app-box {
+  width: 663px;
+  height: 426px;
+}
 .footer-nav h3 {
   font-size: 24px;
   line-height: 31px;
