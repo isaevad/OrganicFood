@@ -308,7 +308,7 @@ body {
   box-sizing: border-box;
 }
 
-button {
+.arrow-button {
   border: none;
   background-color: #FFFFFF;
   margin-top: 39px;
@@ -325,16 +325,19 @@ button {
   flex-direction: row;
   box-sizing: border-box;
   width: 466px;
-  height: 96px;
   margin-top: 50px;
+  justify-content: space-between;
 }
 
 .review-text {
   width: 587px;
 }
 
-.review-name {
-  margin-right: 124px;
+.dwn {
+  font-size: 18px; 
+  line-height: 18px;
+  color: #515151;
+  margin: 0
 }
 
 .app-1 {
@@ -391,17 +394,23 @@ button {
   margin-top: 16px;
 }
 
-.download {
+.download-button {
   width: 170px;
   height: 40px;
   margin-top: 0;
   border-radius: 50px;
   background-color: #F3FBF8;
+  border: none;
 }
 
 .section5-text {
   width: 575px;
   margin-bottom: 50px;
+}
+
+.app-store-link {
+  margin-right: 24px; 
+  text-decoration: none;
 }
 
 .footer-nav h3 {
@@ -414,4 +423,18 @@ button {
   text-decoration: none;
   line-height: 23px;
   color: #555555;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 140px;
+}
+
+.footer-text {
+  width: 346px;
+  margin-top: 70px;
+  margin-bottom: 116px;
 }
