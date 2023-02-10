@@ -438,3 +438,27 @@ body {
   margin-top: 70px;
   margin-bottom: 116px;
 }
+
+.nav-menu {
+  margin-top: 105px;
+}
+
+.logo-icon {
+  margin-bottom: 30px;
+}
+
+.footer-nav h3 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.nav-menu li{
+  margin-bottom: 25px;
+}
+
+.social-links {
+  width: 172px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
